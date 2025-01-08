@@ -1,4 +1,4 @@
-
+/*Порождение сочетаний. C(89). MSK. dcc0@mail.ru*/
 #include <stdio.h>
 #include <stdlib.h>
 /*В этой функции добавляем значение b в массив с.
@@ -127,4 +127,6 @@ int main(int argc, char * argv[]){
         /*Here we stop the algorithm. Остановка алгоритма*/
         if (break_2 == 1) break;
     }
+
+    return 0;
 }

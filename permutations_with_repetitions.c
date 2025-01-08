@@ -6,10 +6,10 @@
 
     int i = 0;
     int j = 0;
-    int x = 0; //Хранит длину строки. Var to let know length of a string
-    int y = 0; //Считаем число перестановок. It counts number.
-    char c; //Для обмена. Buffer
-    char ch[33]; //Хранит перевернутую копию аргумента. Reversed copy of an argument
+    int x = 0; /*Хранит длину строки. Var to let know length of a string*/
+    int y = 0; /*Считаем число перестановок. It counts number.*/
+    char c; /*Для обмена. Buffer*/
+    char ch[33]; /*Хранит перевернутую копию аргумента. Reversed copy of an argument*/
 
     /*Here we check arguments. Проверим аргументы*/
     if (argc < 2) {
@@ -78,4 +78,5 @@
 
     }
     printf("\nNumber of permutations = %d\n", y);
+    return 0;
   }
