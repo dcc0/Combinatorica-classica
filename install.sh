@@ -1,3 +1,4 @@
+#!/bin/bash
 if ! [ -d bin/ ]; then
 echo 'Создаём директорию bin/ с исполняемыми файлами. Attempting to create directory bin/ with executable files.'
 mkdir bin/
