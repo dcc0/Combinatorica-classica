@@ -1,5 +1,4 @@
-Overlay  "Combinatorica classica" contains 8 classical iterative combinatorial algorithms
-for Gentoo Linux and Gentoo-based systems like Calculate Linux, written entirely in C (ANSI) for
+Combinatorica classica  contains 8 classical iterative combinatorial algorithms, written entirely in C (ANSI) for
 run in terminal. These are educational programs and written for educational purposes.
 They have no license but you can determine license like Public Domain. 
 Author: Ivan Gavryuisn (aka dcc0, Black_Ru, MoL0T, iv777).
@@ -24,7 +23,7 @@ Combinatorica classica - пакет классических итеративн�
 стандартных библиотек (stdio, string, stdlib).
 Некоторые алгоритмы изначально спроектированы на языке PHP.
 
-Время разработки: 2010-2020.
+Время разработки: 2010-2025.
 Место: Москва. (MSK).
 E-mail: dcc0@mail.ru, dcc0@yandex.ru, ivangavr777@gmail.com
 
@@ -32,14 +31,19 @@ E-mail: dcc0@mail.ru, dcc0@yandex.ru, ivangavr777@gmail.com
 Для использования алгоритма файл сначала требуется скомпилировать.
 Для этого можно воспользоваться программой gcc в Linux.
 Например (скомпилируем файл для порождения перестановок):
-gcc permutations.c  -o permutations.o
+(to compile standalone program)
+gcc permutations.c  -o permutations.comb
 Запустим:
-./permutations.o 123
+./permutations.comb 123
+Files have ".comb" extension - it is the same as ".o". 
+Just mnemonic!
 
 Для компиляции всех алгоритмов можно запустить
+(Run intall.sh to compile all programs)
 скрипт install.sh, но сначала
 сделать его исполняемым
 chmod +x install.sh
 
 Скрипт создаст директорию bin/
+(All executable files you can find in a ./bin)
 и скомпилирует в нее все файлы с алгоритмами
