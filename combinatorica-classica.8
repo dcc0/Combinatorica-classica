@@ -5,7 +5,7 @@
 .SH "NAME"
 Combinatorica classica
 .SH "SYNOPSIS"
-Combinatorica classica (ИСПОЛЬЗОВАНИЕ)
+Combinatorica classica 
 
    /usr/local/bin/arrangements_no_repetitions.comb  2 1
    /usr/local/bin/compositions.comb  2
@@ -17,7 +17,7 @@ Combinatorica classica (ИСПОЛЬЗОВАНИЕ)
    /usr/local/bin/permutations_with_repetitions.comb 112
 
 .SH "DESCRIPTION"
-.SH "ОПИСАНИЕ"
+
 \fBCombinatorica classica\fR  - пакет классических итеративных алгоритмов переборной комбинаторики,
 который включает в себя следующие реализации (8 классических алгоритмов):
  1) Перестановки (permutations).
@@ -31,28 +31,21 @@ Combinatorica classica (ИСПОЛЬЗОВАНИЕ)
 Алгоритмы осуществляют порождение (генерацию) всех значений.
 Ввод значения осуществляется через аргумент командной строки, вывод на терминал.
 
-.SH "УСТАНОВКА И ЗАПУСК"
+.SH "INSTALL"
+chmod +x ./install.sh
+	Run  ./install.sh
+	All compiled programs will be in bin/
 
-Для использования алгоритма файл сначала требуется скомпилировать;
-для этого можно воспользоваться программой gcc в Linux.
-Например (скомпилируем файл для порождения перестановок): gcc permutations.c -o permutations.comb
+	Установка
+	Запустите:
+	chmod +x ./install.sh
+	Run  ./install.sh
 
-Запустим: ./permutations.comb 123
-
-Для компиляции всех алгоритмов можно запустить скрипт install.sh, но сначала сделать его исполняемым chmod +x install.sh
-
-Скрипт создаст директорию bin/ и скомпилирует в нее все файлы с алгоритмами.
-Если Вы устанавливали пакет через систему установки пакетов в Linux, то программы должны быть в директории
-/usr/local/bin: /usr/local/permutations.comb
-
-Все программы пакета имеют расширение .comb
-
-.SH "О ПРОГРАММЕ"
-Алгоритмы написаны на язык C(89) с использованием стандартных библиотек (stdio, string, stdlib).
-Некоторые алгоритмы изначально спроектированы на языке PHP.
-Время разработки: 2010-2020. Место: Москва. (MSK). E-mail: dcc0@mail.ru, dcc0@yandex.ru, ivangavr777@gmail.com
-
+	Сompile standalone program:
+	gcc permutations.c -o permutations.comb
+	Run:
+	./permutations.comb 123
 
 .SH "AUTHORS"
-.SH "АВТОРЫ"
+
 By Ivan Gavryushin (dcc0. MSK. 2010-2020): <dcc0@mail.ru>,<dcc0@yandex.ru>,<ivangavr777@gmail.com>
